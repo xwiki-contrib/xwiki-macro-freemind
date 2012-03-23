@@ -150,8 +150,9 @@
 <guid>2ae1b5f9-1340-4225-bebe-72dafee79c9f</guid>
 <property>
 <code>{{velocity}}
-#set($flashObject = $xwiki.getAttachmentURL($xcontext.doc.getFullName(), "flashobject.js"))
-#set($visorFreemind = $xwiki.getAttachmentURL($xcontext.doc.getFullName(), "visorFreemind.swf"))
+#set($macroDoc=$xcontext.macro.get("doc").toString())
+#set($flashObject = $xwiki.getAttachmentURL($macroDoc, "flashobject.js"))
+#set($visorFreemind = $xwiki.getAttachmentURL($macroDoc, "visorFreemind.swf"))
 #set($map = $doc.getAttachmentURL("$xcontext.macro.params.map"))
 
 {{html}}
