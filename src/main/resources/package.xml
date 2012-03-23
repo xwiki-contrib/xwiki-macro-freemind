@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+<infos/>
+<name>backup</name>
+<description></description>
+<licence></licence>
+<author>XWiki.Admin</author>
+<version></version>
+<backupPack>false</backupPack>
+<preserveVersion>false</preserveVersion><files>
+<file defaultAction="0" language="">XWiki.FreemindMacro</file></files></package>
